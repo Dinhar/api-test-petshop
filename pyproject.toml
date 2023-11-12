@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "api-test-petshop"
+version = "0.0.1"
+description = "try to write api tests"
+authors = ["Roman Sergeev"]
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4"
+httpx = "^0.25"
+mimesis = "^11.1"
+pydantic = "^2.4"
+mypy = "^1.7"
